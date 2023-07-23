@@ -9,26 +9,27 @@
     }
 </script>
 
-<p>
-    <img tabindex="0" src={imageSrc} alt={caption} on:click={toggleOverlay}
-         on:keydown={(e) => e.key === "Enter" && toggleOverlay()}/>
+<div tabindex="0" role="button" on:click={toggleOverlay} on:keydown={(e) => e.key === "Enter" && toggleOverlay()}>
+    <img src={imageSrc} alt={caption}/>
     <em>{caption}</em>
-</p>
+</div>
 
 {#if overlayVisible}
-    <div tabindex="0" on:click={toggleOverlay} on:keydown={(e) => e.key === "Enter" && toggleOverlay()}>
+    <div class="overlay" tabindex="0" role="button" on:click={toggleOverlay}
+         on:keydown={(e) => e.key === "Enter" && toggleOverlay()}>
         <img src={imageSrc} alt={caption}/>
         <em>{caption}</em>
     </div>
 {/if}
 
 <style>
-    p, div {
+    div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 2rem 0;
+        cursor: pointer;
     }
 
     img {
@@ -37,17 +38,13 @@
         box-shadow: 5px 5px 40px black;
     }
 
-    img, div {
-        cursor: pointer;
-    }
-
     em {
         font-size: 1rem;
         margin-top: .4rem;
         opacity: .7;
     }
 
-    div {
+    div.overlay {
         position: fixed;
         top: 0;
         left: 0;
@@ -58,7 +55,7 @@
         margin: 0;
     }
 
-    div img {
+    div.overlay img {
         max-width: 90%;
         max-height: 90%;
     }
