@@ -3,7 +3,6 @@
     import ArrowLeftThin from "svelte-material-icons/ArrowLeftThin.svelte";
     import ArrowRightThin from "svelte-material-icons/ArrowRightThin.svelte";
     import {TextUtils} from "$lib/utils";
-    import '../post.css';
     import {page} from "$app/stores";
     import type {IPost, IPostList} from "$lib/types";
 
@@ -95,6 +94,14 @@
 <style>
     #metadata {
         margin-bottom: 1rem;
+    }
+
+    .post-content :global(> ul) {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 1rem;
+        margin-top: 2rem;
+        line-height: 1.4rem;
     }
 
     .prevNext {
