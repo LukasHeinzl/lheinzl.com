@@ -1,5 +1,6 @@
 <script>
     import Post from "$lib/Post.svelte";
+    import ImageViewer from "$lib/ImageViewer.svelte";
 
     // from +layout.ts
     export let data;
@@ -14,12 +15,7 @@
         In the end the game was enjoyable to play and got me an A as the final grade in the course.
     </p>
 
-    <p>
-        <a href="/posts/projects/2023-02-18-ktane/orig_game.jpg">
-            <img src="/posts/projects/2023-02-18-ktane/orig_game.jpg" alt="Screenshot of the original game"/>
-        </a>
-        <em>Screenshot of the original game</em>
-    </p>
+    <ImageViewer imageSrc="/posts/projects/2023-02-18-ktane/orig_game.jpg" caption="Screenshot of the original game"/>
 
     <h2>How did we get here?</h2>
 
@@ -35,12 +31,7 @@
         <li>One Arduino per module for handling the module logic</li>
     </ul>
 
-    <p>
-        <a href="/posts/projects/2023-02-18-ktane/diagram.png">
-            <img src="/posts/projects/2023-02-18-ktane/diagram.png" alt="Diagram of the original concept"/>
-        </a>
-        <em>Diagram of the original concept</em>
-    </p>
+    <ImageViewer imageSrc="/posts/projects/2023-02-18-ktane/diagram.png" caption="Diagram of the original concept"/>
 
     <h2>The modules</h2>
 

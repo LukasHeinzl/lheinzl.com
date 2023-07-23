@@ -129,25 +129,3 @@ blockquote > p > strong > em {
 strong {
     font-family: 'Righteous', Tahoma, Arial, sans-serif;
 }
-
-p:has(> a > img):has(> em) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem 0;
-}
-
-p:has(> a > img):has(> em) a, p:has(> a > img):has(> em) a:hover {
-    border-bottom: none;
-}
-
-p:has(> a > img):has(> em) img {
-    max-width: 100%;
-}
-
-a:has(> img) + em {
-    font-size: 1rem;
-    margin-top: .4rem;
-    opacity: .7;
-}

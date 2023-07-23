@@ -1,5 +1,6 @@
 <script>
     import Post from "$lib/Post.svelte";
+    import ImageViewer from "$lib/ImageViewer.svelte";
 
     // from +layout.ts
     export let data;
@@ -17,12 +18,7 @@
         Listen to recordings of the people that lived there and learn about their fate.
     </p>
 
-    <p>
-        <a href="/posts/projects/2023-02-12-nftp/logo.png">
-            <img src="/posts/projects/2023-02-12-nftp/logo.png" alt="NFTP Logo"/>
-        </a>
-        <em>Our logo, designed by Cajetan Grill</em>
-    </p>
+    <ImageViewer imageSrc="/posts/projects/2023-02-12-nftp/logo.png" caption="Our logo, designed by Cajetan Grill"/>
 
     <p>
         You are playing one of the aliens that had just crash-landed on planet Earth.
@@ -45,12 +41,7 @@
         This can turn seemingly useless things into useful and functional tools.
     </p>
 
-    <p>
-        <a href="/posts/projects/2023-02-12-nftp/repair.jpg">
-            <img src="/posts/projects/2023-02-12-nftp/repair.jpg" alt="Repairing a helmet"/>
-        </a>
-        <em>Repairing an artefact</em>
-    </p>
+    <ImageViewer imageSrc="/posts/projects/2023-02-12-nftp/repair.jpg" caption="Repairing an artefact"/>
 
     <p>
         Lastly the transponder functions as our main plot device.
@@ -63,12 +54,8 @@
         the player has found so far.
     </p>
 
-    <p>
-        <a href="/posts/projects/2023-02-12-nftp/archive.jpg">
-            <img src="/posts/projects/2023-02-12-nftp/archive.jpg" alt="An artefact in the archive's database"/>
-        </a>
-        <em>n artefact in the archive's database</em>
-    </p>
+    <ImageViewer imageSrc="/posts/projects/2023-02-12-nftp/archive.jpg"
+                 caption="An artefact in the archive's database"/>
 
     <p>
         Now onto some hard-facts.
