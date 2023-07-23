@@ -15,7 +15,8 @@
     </div>
     <ul class="list">
         {#each tags as tag}
-            <li class="tag" title="Tag: {tag}" on:click={() => dispatch("tagClicked", {tag})}>
+            <li class="tag" title="Tag: {tag}" on:click={() => dispatch("tagClicked", {tag})}
+                on:keydown={(e) => e.key === "Enter" && dispatch("tagClicked", {tag})} tabindex="0">
                 <span class="icon"><Pound/></span>
                 <span>{tag}</span>
             </li>

@@ -10,12 +10,13 @@
 </script>
 
 <p>
-    <img tabindex="0" src={imageSrc} alt={caption} on:click={toggleOverlay} on:keydown={toggleOverlay}/>
+    <img tabindex="0" src={imageSrc} alt={caption} on:click={toggleOverlay}
+         on:keydown={(e) => e.key === "Enter" && toggleOverlay()}/>
     <em>{caption}</em>
 </p>
 
 {#if overlayVisible}
-    <div tabindex="0" on:click={toggleOverlay} on:keydown={toggleOverlay}>
+    <div tabindex="0" on:click={toggleOverlay} on:keydown={(e) => e.key === "Enter" && toggleOverlay()}>
         <img src={imageSrc} alt={caption}/>
         <em>{caption}</em>
     </div>
