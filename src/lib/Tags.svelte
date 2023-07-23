@@ -16,11 +16,10 @@
     <ul class="list">
         {#each tags as tag}
             <li title="Tag: {tag}">
-                <div class="tag" tabindex="0" role="button" on:click={() => dispatch("tagClicked", {tag})}
-                     on:keydown={(e) => e.key === "Enter" && dispatch("tagClicked", {tag})}>
+                <button class="tag" on:click={() => dispatch("tagClicked", {tag})}>
                     <span class="icon"><Pound/></span>
                     <span>{tag}</span>
-                </div>
+                </button>
             </li>
         {:else}
             None
@@ -50,7 +49,6 @@
     }
 
     .tag {
-        cursor: default;
         display: flex;
         flex-flow: row nowrap;
         justify-content: flex-start;
@@ -58,6 +56,7 @@
         gap: .25rem;
         border: 3px solid var(--accent-col);
         color: var(--accent-col);
+        background-color: transparent;
         padding: 0.3rem 0.7rem;
         border-radius: 0.4rem;
         font-weight: bold;
