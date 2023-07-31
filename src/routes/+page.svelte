@@ -64,7 +64,7 @@
             </a>
         </li>
         <li>
-            <a id="linkedin" href="https://www.linkedin.com/in/lukas-heinzl-120217202" target="_blank" rel="noreferrer">
+            <a id="linkedin" href="https://www.linkedin.com/in/lukas-heinzl-bsc-120217202/?locale=en_US" target="_blank" rel="noreferrer">
                 <Linkedin width="32" height="32"/>
                 LinkedIn
             </a>
