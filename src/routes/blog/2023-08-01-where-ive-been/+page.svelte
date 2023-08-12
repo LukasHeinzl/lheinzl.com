@@ -6,6 +6,14 @@
 </script>
 
 <Post data={data.postData}>
+    <blockquote>
+        <p><strong><em>TRIGGER WARNING</em></strong></p>
+
+        <p>
+            This post mentions self-harm.
+        </p>
+    </blockquote>
+
     <p>
         It's been a while...
         Three months to be exact.
