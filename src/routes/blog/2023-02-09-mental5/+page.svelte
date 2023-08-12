@@ -26,10 +26,6 @@
             <strong>If you have any struggles or thoughts about these topics please seek professional help.</strong>
             A link to get you started: <a href="https://www.google.com/search?q=suicide+prevention+hotline">
             Suicide Prevention Hotline</a>
-
-            It is advised to at least read the disclaimer on the <a href="/blog/2023-02-03-mental1/">intro post</a>.
-            As posts are mostly in chronological order and can reference past posts, it is highly recommended to read
-            them in order starting on the <a href="/blog/2023-02-03-mental1/">intro post</a>.
         </p>
     </blockquote>
 
