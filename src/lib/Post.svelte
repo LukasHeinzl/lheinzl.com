@@ -49,13 +49,15 @@
 
         {#if showPostList}
             <ul>
-                {#each Object.entries(data.posts) as [post, postData]}
-                    {#if post === currentPost}
-                        <li><em><strong>[You are here]</strong> {postData.title}</em></li>
-                    {:else}
-                        <li>
-                            <a href="/blog/{post}/">{postData.title}</a>
-                        </li>
+                {#each Object.entries(data.posts) as [p, postData]}
+                    {#if postData.tags[0] === post.tags[0]}
+                        {#if p === currentPost}
+                            <li><em><strong>[You are here]</strong> {postData.title}</em></li>
+                        {:else}
+                            <li>
+                                <a href="/blog/{p}/">{postData.title}</a>
+                            </li>
+                        {/if}
                     {/if}
                 {/each}
             </ul>

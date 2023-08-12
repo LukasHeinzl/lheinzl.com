@@ -5,7 +5,7 @@
     export let data;
 </script>
 
-<Post data={data.postData} showPostList>
+<Post data={data.postData}>
     <p>
         It's been a while...
         Three months to be exact.
