@@ -175,13 +175,24 @@
         "Relationships"
       ]
     },
-    "2023-08-01-where-ive-been": {
+    "2023-08-01-general1": {
       "title": "Where I've been",
       "published": "01.08.2023",
       "tags": [
         "General",
         "Mental health",
         "Intermission"
+      ]
+    },
+    "2023-08-13-travel1": {
+      "title": "Trip to Switzerland",
+      "published": "13.08.2023",
+      "tags": [
+        "Travel",
+        "07/2023",
+        "Switzerland",
+        "France",
+        "Liechtenstein"
       ]
     }
   }
