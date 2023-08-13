@@ -34,6 +34,7 @@
 
     img {
         max-width: 80%;
+        max-height: 50vh;
         border-radius: .3rem;
         box-shadow: 5px 5px 40px black;
     }
