@@ -128,7 +128,7 @@
         But let me tell you this much: After that post it will generally be uphill from there onwards.
         There are still a few setbacks - even at the time of writing this I am going through a little difficult phase
         again.
-        But for the most part, we've made.
+        But for the most part, we've made it.
         Or I guess, past me made it.
         After August 2019 - the time that I was at my absolute lowest point in life - we can reflect and grow together.
         See you soon in the next post!
