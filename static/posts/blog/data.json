@@ -5,6 +5,7 @@
       "title": "1. I, Lonely and the modern world",
       "published": "03.02.2023",
       "tags": [
+        "2023",
         "Mental health",
         "Meta post",
         "Start here"
@@ -14,6 +15,7 @@
       "title": "2. An insignificant person in an insignificant town",
       "published": "05.02.2023",
       "tags": [
+        "2023",
         "Mental health",
         "2000 - 2014",
         "Origins",
@@ -24,6 +26,7 @@
       "title": "3. New beginnings - new chances?",
       "published": "06.02.2023",
       "tags": [
+        "2023",
         "Mental health",
         "2014 - 2016",
         "School",
@@ -34,6 +37,7 @@
       "title": "4. The plot thickens",
       "published": "07.02.2023",
       "tags": [
+        "2023",
         "Mental health",
         "01/2017 - 07/2017",
         "School",
@@ -45,6 +49,7 @@
       "title": "5. Dance with the reaper",
       "published": "09.02.2023",
       "tags": [
+        "2023",
         "Mental health",
         "Intermission",
         "Self-harm",
@@ -55,6 +60,7 @@
       "title": "6. A small glimpse of hope",
       "published": "09.02.2023",
       "tags": [
+        "2023",
         "Mental health",
         "08/2017 - 08/2018",
         "School",
@@ -66,6 +72,7 @@
       "title": "7. Calm before the storm",
       "published": "10.02.2023",
       "tags": [
+        "2023",
         "Mental health",
         "09/2018 - 10/2018",
         "School",
@@ -77,6 +84,7 @@
       "title": "8. The world inside my head",
       "published": "11.02.2023",
       "tags": [
+        "2023",
         "Mental health",
         "Intermission",
         "Fantasy world",
@@ -87,6 +95,7 @@
       "title": "9. The deep dark",
       "published": "11.02.2023",
       "tags": [
+        "2023",
         "Mental health",
         "11/2018 - 08/2019",
         "School",
@@ -98,6 +107,7 @@
       "title": "10. Take a look in the mirror, you’ll see a bit clearer",
       "published": "19.02.2023",
       "tags": [
+        "2023",
         "Mental health",
         "09/2019 - 12/2019",
         "Self-reflection",
@@ -108,6 +118,7 @@
       "title": "11. On the Subject of FOMO",
       "published": "26.02.2023",
       "tags": [
+        "2023",
         "Mental health",
         "Intermission",
         "FOMO",
@@ -118,6 +129,7 @@
       "title": "12. The great distraction",
       "published": "04.03.2023",
       "tags": [
+        "2023",
         "Mental health",
         "01/2020 - 09/2020",
         "Coping",
@@ -128,6 +140,7 @@
       "title": "13. New beginnings - new chances? Part 2 - electric boogaloo",
       "published": "19.03.2023",
       "tags": [
+        "2023",
         "Mental health",
         "09/2020 - 06/2021",
         "University",
@@ -138,6 +151,7 @@
       "title": "14. The dark thoughts return",
       "published": "27.03.2023",
       "tags": [
+        "2023",
         "Mental health",
         "07/2021 - 12/2021",
         "University",
@@ -148,6 +162,7 @@
       "title": "15. You are two",
       "published": "08.04.2023",
       "tags": [
+        "2023",
         "Mental health",
         "Intermission",
         "Two personalities",
@@ -158,6 +173,7 @@
       "title": "16. Things are looking up",
       "published": "23.04.2023",
       "tags": [
+        "2023",
         "Mental health",
         "01/2022 - 10/2022",
         "University",
@@ -169,6 +185,7 @@
       "title": "17. The birds and the bees",
       "published": "04.05.2023",
       "tags": [
+        "2023",
         "Mental health",
         "Undated",
         "Sexuality",
@@ -179,6 +196,7 @@
       "title": "Where I've been",
       "published": "01.08.2023",
       "tags": [
+        "2023",
         "General",
         "Mental health",
         "Intermission"
@@ -188,6 +206,7 @@
       "title": "Trip to Switzerland",
       "published": "13.08.2023",
       "tags": [
+        "2023",
         "Travel",
         "07/2023",
         "Switzerland",
@@ -199,6 +218,7 @@
       "title": "18. I'm not a crewmate...",
       "published": "12.10.2023",
       "tags": [
+        "2023",
         "Mental health",
         "Intermission",
         "Self-doubt"
@@ -208,10 +228,19 @@
       "title": "Onwards and upwards",
       "published": "12.10.2023",
       "tags": [
+        "2023",
         "General",
         "Mental health",
         "Intermission",
         "Friends"
+      ]
+    },
+    "2024-01-01-yir2023": {
+      "title": "Year in review - 2023",
+      "published": "01.01.2024",
+      "tags": [
+        "Year in review",
+        "2023"
       ]
     }
   }
