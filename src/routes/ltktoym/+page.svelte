@@ -22,6 +22,7 @@
             music?.play();
             showNextLyrics();
         });
+        music.load();
     }
 
     function showNextLyrics() {
