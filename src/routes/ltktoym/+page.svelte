@@ -63,7 +63,7 @@
         <span>{currentLyric}</span>
     {:else}
         <span>The person who sent you this wanted to let you know, that you are on their mind! ❤️</span>
-        <span>They also want you to check you Cavetown's new song and EP <a
+        <span>They also want you to check out Cavetown's new song and EP <a
                 href="https://cavetown.komi.io/" target="_blank">here</a>!</span>
         <br/>
         <span>Share this with someone close, to let them know, they're on your mind!</span>
