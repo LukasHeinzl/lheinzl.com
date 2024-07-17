@@ -5,4 +5,5 @@
     export let data;
 </script>
 
-<PostList data={data.postData} title="Personal blog"/>
+<!--<PostList data={data.postData} title="Personal blog"/>-->
+Currently being reworked

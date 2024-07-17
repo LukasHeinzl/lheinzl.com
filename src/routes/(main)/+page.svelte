@@ -27,7 +27,7 @@
             </p>
             <p>
                 You will also find my <a href="/blog/">personal blog</a> where I write more about my day-to-day life as
-                well as my long struggles with mental health.<br/>
+                well as whatever else I want to talk about.<br/>
             </p>
             <p class="quote">
                 Have fun!
@@ -64,7 +64,8 @@
             </a>
         </li>
         <li>
-            <a id="linkedin" href="https://www.linkedin.com/in/lukas-heinzl-bsc-120217202/?locale=en_US" target="_blank" rel="noreferrer">
+            <a id="linkedin" href="https://www.linkedin.com/in/lukas-heinzl-bsc-120217202/?locale=en_US" target="_blank"
+               rel="noreferrer">
                 <Linkedin width="32" height="32"/>
                 LinkedIn
             </a>
