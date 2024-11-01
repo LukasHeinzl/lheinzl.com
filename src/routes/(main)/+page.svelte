@@ -14,76 +14,65 @@
             <span class="subMark">he/they</span>
         </h1>
     </header>
+
     <article id="about">
-        <section class="text">
-            <h2>
-                Hey there, I'm Lukas!<br/>
-            </h2>
-            <p>
-                I am a developer from Austria that currently studies a master program focussed on AR/VR.
-                Below you can find a list of links to my profiles on various platforms.
-                On this website you can explore <a href="/projects/">projects</a> that I have been or currently am
-                working on.
-            </p>
-            <p>
-                You will also find my <a href="/blog/">personal blog</a> where I write more about my day-to-day life as
-                well as whatever else I want to talk about.<br/>
-            </p>
-            <p class="quote">
-                Have fun!
-            </p>
-        </section>
-        <section class="picture">
-            <img src="/lheinzl.jpg" alt="Avatar of Lukas Heinzl" class="photo"/>
-        </section>
+        <h2>
+            Hey there, I'm Lukas!<br/>
+        </h2>
+        <p>
+            I am a developer from Austria that currently studies a master program focused on AR/VR.
+            Furthermore, I work at <a href="https://fhstp.ac.at/" target="_blank">St. Pölten UAS</a> as a lecturer
+            and lab infrastructure manager.
+            Below you can find a list of links to my profiles on various platforms.
+            On this website you can explore <a href="/projects/">projects</a> that I have been or currently am
+            working on.
+        </p>
+        <p>
+            You will also find my <a href="/blog/">personal blog</a> where I write more about my day-to-day life as
+            well as whatever else I want to talk about.<br/>
+        </p>
+        <p class="quote">
+            Have fun!
+        </p>
     </article>
-    <ul class="link-list">
-        <li>
-            <a id="twitter" href="https://twitter.com/LukasHeinzl" target="_blank" rel="noreferrer">
-                <Twitter width="32" height="32"/>
-                Twitter
-            </a>
-        </li>
-        <li>
-            <a id="instagram" href="https://www.instagram.com/lukasheinzl/" target="_blank" rel="noreferrer">
-                <Instagram width="32" height="32"/>
-                Instagram
-            </a>
-        </li>
-        <li>
-            <a id="github" href="https://github.com/LukasHeinzl" target="_blank" rel="noreferrer">
-                <Github width="32" height="32"/>
-                Github
-            </a>
-        </li>
-        <li>
-            <a id="youtube" href="https://www.youtube.com/channel/UCZIL1AD1I0opSfmJZn3SJbA/" target="_blank"
-               rel="noreferrer">
-                <Youtube width="32" height="32"/>
-                Youtube
-            </a>
-        </li>
-        <li>
-            <a id="linkedin" href="https://www.linkedin.com/in/lukas-heinzl-bsc-120217202/?locale=en_US" target="_blank"
-               rel="noreferrer">
-                <Linkedin width="32" height="32"/>
-                LinkedIn
-            </a>
-        </li>
-    </ul>
+
+    <div class="link-list">
+        <a id="twitter" href="https://twitter.com/LukasHeinzl" target="_blank" rel="noreferrer">
+            <Twitter width="32" height="32"/>
+            Twitter
+        </a>
+
+        <a id="instagram" href="https://www.instagram.com/lukasheinzl/" target="_blank" rel="noreferrer">
+            <Instagram width="32" height="32"/>
+            Instagram
+        </a>
+
+        <a id="github" href="https://github.com/LukasHeinzl" target="_blank" rel="noreferrer">
+            <Github width="32" height="32"/>
+            Github
+        </a>
+
+        <a id="youtube" href="https://www.youtube.com/channel/UCZIL1AD1I0opSfmJZn3SJbA/" target="_blank"
+           rel="noreferrer">
+            <Youtube width="32" height="32"/>
+            Youtube
+        </a>
+
+        <a id="linkedin" href="https://www.linkedin.com/in/lukas-heinzl-bsc-120217202/?locale=en_US" target="_blank"
+           rel="noreferrer">
+            <Linkedin width="32" height="32"/>
+            LinkedIn
+        </a>
+    </div>
 </div>
 
 <style>
     div.landing-page {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
         align-items: center;
-        text-align: left;
-        height: 100%;
         gap: 5vh;
     }
-
 
     header {
         display: flex;
@@ -91,8 +80,6 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        position: sticky;
-        top: 0;
     }
 
     #wordMark {
@@ -109,29 +96,15 @@
         height: 10rem;
     }
 
-    .photo {
-        height: 240px;
-        opacity: .7;
-        box-shadow: 0 0 20px var(--bg-main);
-        border-radius: 12px;
+    .quote {
+        font-style: italic;
+        font-size: 1.8rem;
+        padding-left: 1rem;
+        color: var(--text-secondary);
     }
 
-    #about {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    #about .text {
-        text-align: justify;
-        flex-grow: 1;
-        line-height: 1.5rem;
-    }
-
-    #about .picture {
-        min-width: 240px;
+    .quote::before {
+        content: '― '
     }
 
     .link-list {
@@ -140,30 +113,21 @@
         justify-content: center;
         align-items: center;
         gap: 3rem;
-        list-style: none;
-    }
-
-    .link-list > * {
-        min-width: 5rem;
     }
 
     .link-list a {
+        min-width: 5rem;
+        min-height: 3.6rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         text-align: center;
         text-decoration: none;
-        color: var(--text-main);
-        min-height: 3.6rem;
-        opacity: 0.4;
+        color: #999999;
         border: none;
 
-        transition: opacity 300ms ease-out;
-    }
-
-    .link-list a:hover {
-        opacity: 1;
+        transition: color 300ms ease-out;
     }
 
     .link-list a#twitter:hover {

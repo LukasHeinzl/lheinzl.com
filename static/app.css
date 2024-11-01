@@ -102,17 +102,6 @@ a:hover {
     border-bottom: 3px solid var(--hover-col);
 }
 
-.quote {
-    font-style: italic;
-    font-size: 1.8rem;
-    padding-left: 1rem;
-    color: var(--text-secondary);
-}
-
-.quote::before {
-    content: '― '
-}
-
 article {
     padding: 3rem 0 3rem 0;
     border-width: 3px;
