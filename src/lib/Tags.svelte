@@ -3,7 +3,12 @@
     import Pound from 'svelte-material-icons/Pound.svelte';
     import {createEventDispatcher} from "svelte";
 
-    export let tags: string[];
+    interface Props {
+        tags: string[];
+        children?: import('svelte').Snippet;
+    }
+
+    let { tags, children }: Props = $props();
 
     let dispatch = createEventDispatcher();
 </script>
@@ -11,12 +16,12 @@
 <div class="tags">
     <div class="title">
         <span class="icon"><Label/></span>
-        <span class="label"><slot>Tags:</slot></span>
+        <span class="label">{#if children}{@render children()}{:else}Tags:{/if}</span>
     </div>
     <ul class="list">
         {#each tags as tag}
             <li title="Tag: {tag}">
-                <button class="tag" on:click={() => dispatch("tagClicked", {tag})}>
+                <button class="tag" onclick={() => dispatch("tagClicked", {tag})}>
                     <span class="icon"><Pound/></span>
                     <span>{tag}</span>
                 </button>

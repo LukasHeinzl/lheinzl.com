@@ -6,11 +6,16 @@
     import {page} from "$app/stores";
     import type {IPost, IPostList} from "$lib/types";
 
-    export let data: IPostList;
-    export let showPostList: boolean = false;
+    interface Props {
+        data: IPostList;
+        showPostList?: boolean;
+        children?: import('svelte').Snippet;
+    }
 
-    let currentPost: string;
-    $: currentPost = $page.url.toString().split("/").reverse()[1];
+    let { data, showPostList = false, children }: Props = $props();
+
+    let currentPost: string = $derived($page.url.toString().split("/").reverse()[1]);
+    
 
     interface IExtendedPost extends IPost {
         previousPost?: IPost;
@@ -45,7 +50,7 @@
         <Tags tags={post.tags}/>
     </div>
     <div class="post-content">
-        <slot/>
+        {@render children?.()}
 
         {#if showPostList}
             <ul>

@@ -7,11 +7,15 @@
     import Tags from "$lib/Tags.svelte";
     import type {IPostList} from "$lib/types";
 
-    export let title: string;
-    export let data: IPostList;
+    interface Props {
+        title: string;
+        data: IPostList;
+    }
 
-    let sortOrder: string = "newest";
-    let selectedTags: string[] = [];
+    let { title, data }: Props = $props();
+
+    let sortOrder: string = $state("newest");
+    let selectedTags: string[] = $state([]);
 
     function toggleSortOrder(): void {
         sortOrder = sortOrder === "newest" ? "oldest" : "newest";
@@ -66,7 +70,7 @@
         <Tags tags={selectedTags} on:tagClicked={handleTagClick}>Filtered tags:</Tags>
     {/if}
 
-    <button on:click={() => toggleSortOrder()}>
+    <button onclick={() => toggleSortOrder()}>
         {#if sortOrder === "newest"}
             <ArrowDown/>
             <strong>Newest</strong> first

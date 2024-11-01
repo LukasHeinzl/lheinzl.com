@@ -1,8 +1,8 @@
 <script lang="ts">
-    let state: 'start' | 'playing' | 'end' = 'start';
-    let shareButtonText: string = 'Copy link to share';
+    let state: 'start' | 'playing' | 'end' = $state('start');
+    let shareButtonText: string = $state('Copy link to share');
     let music: HTMLAudioElement | null = null;
-    let currentLyric: string = '';
+    let currentLyric: string = $state('');
     let currentLyricIndex: number = 0;
     let lyrics = [
         {text: "Hey! I've got nothing to say but I'm lonely", at: 0},
@@ -53,7 +53,7 @@
 <main>
     {#if state === 'start'}
         <span>Hey, I wanted to let you know this:</span>
-        <button on:click={play}>Click for surprise</button>
+        <button onclick={play}>Click for surprise</button>
     {:else if state === 'playing'}
         <div class="notes">
             <span style="--time: 1s">🎵</span>
@@ -68,7 +68,7 @@
         <br/>
         <span>Share this with someone close, to let them know, they're on your mind!</span>
         <br/>
-        <button on:click={copyShare}>{shareButtonText}</button>
+        <button onclick={copyShare}>{shareButtonText}</button>
     {/if}
 </main>
 

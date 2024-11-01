@@ -2,8 +2,14 @@
     import Post from "$lib/Post.svelte";
     import ImageViewer from "$lib/ImageViewer.svelte";
 
-    // from +layout.ts
-    export let data;
+    
+    /**
+     * @typedef {Object} Props
+     * @property {any} data - from +layout.ts
+     */
+
+    /** @type {Props} */
+    let { data } = $props();
 </script>
 
 <Post data={data.postData}>

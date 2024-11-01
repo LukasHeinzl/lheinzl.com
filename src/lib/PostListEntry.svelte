@@ -4,11 +4,15 @@
     import {page} from "$app/stores";
     import type {IPost} from "$lib/types";
 
-    export let href: string;
-    export let post: IPost;
+    interface Props {
+        href: string;
+        post: IPost;
+    }
 
-    let viewCaption: string;
-    $: viewCaption = $page.params.type === 'projects' ? 'View project' : 'Read post';
+    let { href, post }: Props = $props();
+
+    let viewCaption: string = $derived($page.params.type === 'projects' ? 'View project' : 'Read post');
+    
 </script>
 
 <article class="postListEntry">

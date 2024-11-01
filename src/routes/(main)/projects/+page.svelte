@@ -1,8 +1,14 @@
 <script>
     import PostList from "$lib/PostList.svelte";
 
-    // from +layout.ts
-    export let data;
+    
+    /**
+     * @typedef {Object} Props
+     * @property {any} data - from +layout.ts
+     */
+
+    /** @type {Props} */
+    let { data } = $props();
 </script>
 
 <PostList data={data.postData} title="Projects"/>

@@ -1,10 +1,17 @@
 <script>
     import Nav from '$lib/Nav.svelte';
+    /**
+     * @typedef {Object} Props
+     * @property {import('svelte').Snippet} [children]
+     */
+
+    /** @type {Props} */
+    let { children } = $props();
 </script>
 
 <main>
     <div id="content">
-        <slot></slot>
+        {@render children?.()}
     </div>
 </main>
 

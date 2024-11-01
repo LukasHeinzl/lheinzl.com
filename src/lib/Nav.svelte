@@ -9,14 +9,14 @@
 
     //  Page names matching url path names, stripped by any leading slash and trailing path
     const pages: string[] = ['', 'projects', 'blog'];
-    let pageIdx: number, navGradientPosition: number;
-    let y: number = 0, h: number = 0, scroll: number, collapsed: boolean;
+    let pageIdx: number = $derived(Math.max(0, pages.findIndex(p => p === $page.url.pathname.replace(pathPattern, '$<base>')))), navGradientPosition: number = $derived(Math.trunc(100 * pageIdx / (pages.length - 1)));
+    let y: number = $state(0), h: number = $state(0), scroll: number = $derived(y / h), collapsed: boolean = $derived(scroll > collapseThreshold);
     const collapseThreshold: number = .2;
 
-    $: scroll = y / h;
-    $: collapsed = scroll > collapseThreshold;
-    $: pageIdx = Math.max(0, pages.findIndex(p => p === $page.url.pathname.replace(pathPattern, '$<base>')));
-    $: navGradientPosition = Math.trunc(100 * pageIdx / (pages.length - 1));
+    
+    
+    
+    
 </script>
 
 <svelte:window bind:scrollY={y} bind:innerHeight={h}/>

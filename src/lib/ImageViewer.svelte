@@ -1,22 +1,26 @@
 <script lang="ts">
-    export let imageSrc: string;
-    export let caption: string;
+    interface Props {
+        imageSrc: string;
+        caption: string;
+    }
 
-    let overlayVisible: boolean = false;
+    let { imageSrc, caption }: Props = $props();
+
+    let overlayVisible: boolean = $state(false);
 
     function toggleOverlay() {
         overlayVisible = !overlayVisible;
     }
 </script>
 
-<div tabindex="0" role="button" on:click={toggleOverlay} on:keydown={(e) => e.key === "Enter" && toggleOverlay()}>
+<div tabindex="0" role="button" onclick={toggleOverlay} onkeydown={(e) => e.key === "Enter" && toggleOverlay()}>
     <img src={imageSrc} alt={caption}/>
     <em>{caption}</em>
 </div>
 
 {#if overlayVisible}
-    <div class="overlay" tabindex="0" role="button" on:click={toggleOverlay}
-         on:keydown={(e) => e.key === "Enter" && toggleOverlay()}>
+    <div class="overlay" tabindex="0" role="button" onclick={toggleOverlay}
+         onkeydown={(e) => e.key === "Enter" && toggleOverlay()}>
         <img src={imageSrc} alt={caption}/>
         <em>{caption}</em>
     </div>
