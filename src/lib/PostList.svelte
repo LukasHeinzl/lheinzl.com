@@ -12,7 +12,7 @@
         data: IPostList;
     }
 
-    let { title, data }: Props = $props();
+    let {title, data}: Props = $props();
 
     let sortOrder: string = $state("newest");
     let selectedTags: string[] = $state([]);
@@ -43,15 +43,17 @@
 <div>
     <h1>{title}</h1>
 
-    <p class="title h2">
-        <span class="icon">
-            <Pin/>
-        </span>
-        <span class="caption">
-            Pinned post
-        </span>
-    </p>
     {#if data.hasOwnProperty("pinned") && data.posts.hasOwnProperty(data.pinned)}
+        <p class="title h2">
+            <span class="icon">
+                <Pin/>
+            </span>
+
+            <span class="caption">
+                Pinned post
+            </span>
+        </p>
+
         <div class="post pinned">
             <PostListEntry href={data.pinned} post={data.posts[data.pinned]} on:tagClicked={handleTagClick}/>
         </div>
