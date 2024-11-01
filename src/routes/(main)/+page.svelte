@@ -107,6 +107,13 @@
         content: '― '
     }
 
+    article {
+        padding-top: 2rem;
+        border-width: 3px;
+        border-style: solid;
+        border-image: linear-gradient(90deg, transparent 10%, var(--bg-main) 50%, transparent 90%) 1;
+    }
+
     .link-list {
         display: flex;
         flex-flow: row wrap;

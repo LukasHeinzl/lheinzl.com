@@ -23,9 +23,8 @@
         left: 0;
         right: 0;
         bottom: 4rem;
-        padding: 5vh 10vw;
+        padding: 2vh 10vw;
     }
-
 
     #content {
         overflow-y: auto;
@@ -38,7 +37,24 @@
         padding: 0.6rem;
     }
 
-    #content:last-child {
-        margin-bottom: 4rem;
+    @media screen and (max-width: 999px) {
+        main {
+            padding-left: 7vw;
+            padding-right: 11vw;
+        }
+    }
+
+    @media screen and (max-width: 599px) {
+        main {
+            padding-left: 5vw;
+            padding-right: 13vw;
+        }
+    }
+
+    @media screen and (max-width: 399px) {
+        main {
+            padding-left: 3vw;
+            padding-right: 15vw;
+        }
     }
 </style>

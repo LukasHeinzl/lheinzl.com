@@ -88,6 +88,7 @@ h3, .h3 {
 
 p {
     line-height: 1.3;
+    text-align: justify;
 }
 
 a {
@@ -102,13 +103,6 @@ a:hover {
     border-bottom: 3px solid var(--hover-col);
 }
 
-article {
-    padding: 3rem 0 3rem 0;
-    border-width: 3px;
-    border-style: solid;
-    border-image: linear-gradient(90deg, transparent 10%, var(--bg-main) 50%, transparent 90%) 1;
-}
-
 blockquote {
     border-left: 1px solid var(--accent-col);
     margin: 0;
@@ -121,4 +115,22 @@ blockquote > p > strong > em {
 
 strong {
     font-family: 'Righteous', Tahoma, Arial, sans-serif;
+}
+
+@media screen and (max-width: 999px) {
+    :root {
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    :root {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    :root {
+        font-size: 60%;
+    }
 }
