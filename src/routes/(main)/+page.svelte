@@ -9,6 +9,7 @@
 <div class="landing-page">
     <header>
         <img src="/Logo.png" alt="Logo" class="logo golden"/>
+        
         <h1 id="wordMark">
             <span>Lukas Heinzl, BSc</span>
             <span class="subMark">he/they</span>
@@ -19,18 +20,25 @@
         <h2>
             Hey there, I'm Lukas!<br/>
         </h2>
+
         <p>
             I am a developer from Austria that currently studies a master program focused on AR/VR.
             Furthermore, I work at <a href="https://fhstp.ac.at/" target="_blank">St. Pölten UAS</a> as a lecturer
             and lab infrastructure manager.
-            Below you can find a list of links to my profiles on various platforms.
+            If you want to read more about me, check out my <a href="/about/">about page</a>.
+        </p>
+
+        <p>
             On this website you can explore <a href="/projects/">projects</a> that I have been or currently am
             working on.
-        </p>
-        <p>
             You will also find my <a href="/blog/">personal blog</a> where I write more about my day-to-day life as
-            well as whatever else I want to talk about.<br/>
+            well as whatever else I want to talk about.
         </p>
+
+        <p>
+            Below you can find a list of links to my profiles on various platforms.
+        </p>
+
         <p class="quote">
             Have fun!
         </p>

@@ -1,6 +1,7 @@
 <script lang="ts">
     import Home from "svelte-material-icons/Home.svelte";
     import NewsPaperVariant from "svelte-material-icons/NewspaperVariant.svelte";
+    import AccountBox from "svelte-material-icons/AccountBox.svelte";
     import MonitorCellphoneStar from 'svelte-material-icons/MonitorCellphoneStar.svelte';
     import {page} from "$app/stores";
 
@@ -8,7 +9,7 @@
     const pathPattern: RegExp = /^(?<root>\/)(?<base>\w+)?(?<tail>.*)?$/gi;
 
     //  Page names matching url path names, stripped by any leading slash and trailing path
-    const pages: string[] = ['', 'projects', 'blog'];
+    const pages: string[] = ['', 'about', 'projects', 'blog'];
     let pageIdx: number = $derived(Math.max(0, pages.findIndex(p => p === $page.url.pathname.replace(pathPattern, '$<base>'))));
 </script>
 
@@ -17,11 +18,18 @@
         <Home size="1.7em"/>
         <span class="nav-link-title">Home</span>
     </a>
-    <a href="/projects/" class:active={pageIdx === 1} title="Projects">
+
+    <a href="/about/" class:active={pageIdx === 1} title="About me">
+        <AccountBox size="1.7em"/>
+        <span class="nav-link-title">About me</span>
+    </a>
+
+    <a href="/projects/" class:active={pageIdx === 2} title="Projects">
         <MonitorCellphoneStar size="1.7em"/>
         <span class="nav-link-title">Projects</span>
     </a>
-    <a href="/blog/" class:active={pageIdx === 2} title="Blog">
+
+    <a href="/blog/" class:active={pageIdx === 3} title="Blog">
         <NewsPaperVariant size="1.7em"/>
         <span class="nav-link-title">Blog</span>
     </a>
