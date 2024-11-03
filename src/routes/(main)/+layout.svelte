@@ -23,7 +23,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        padding: 2vh 10vw;
+        padding: 2vh 10vw 5rem 10vw;
     }
 
     #content {
@@ -40,21 +40,21 @@
     @media screen and (max-width: 999px) {
         main {
             padding-left: 7vw;
-            padding-right: 11vw;
+            padding-right: 7vw;
         }
     }
 
     @media screen and (max-width: 599px) {
         main {
             padding-left: 5vw;
-            padding-right: 13vw;
+            padding-right: 5vw;
         }
     }
 
     @media screen and (max-width: 399px) {
         main {
             padding-left: 3vw;
-            padding-right: 15vw;
+            padding-right: 3vw;
         }
     }
 </style>

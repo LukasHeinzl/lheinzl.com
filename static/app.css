@@ -121,18 +121,18 @@ strong {
 
 @media screen and (max-width: 999px) {
     :root {
-        font-size: 85%;
+        font-size: 90%;
     }
 }
 
 @media screen and (max-width: 599px) {
     :root {
-        font-size: 75%;
+        font-size: 80%;
     }
 }
 
 @media screen and (max-width: 399px) {
     :root {
-        font-size: 60%;
+        font-size: 70%;
     }
 }

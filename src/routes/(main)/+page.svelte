@@ -35,10 +35,6 @@
             well as whatever else I want to talk about.
         </p>
 
-        <p>
-            Below you can find a list of links to my profiles on various platforms.
-        </p>
-
         <p class="quote">
             Have fun!
         </p>
@@ -79,7 +75,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 5vh;
+        gap: 2vh;
     }
 
     header {

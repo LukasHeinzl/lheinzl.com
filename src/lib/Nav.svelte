@@ -40,10 +40,13 @@
         position: fixed;
         right: 0;
         bottom: 0;
+        left: 0;
         display: flex;
-        flex-direction: column;
-        gap: .6rem;
+        justify-content: center;
+        gap: 1.6rem;
         padding: .6rem;
+        background: #88888805;
+        backdrop-filter: blur(.25rem);
     }
 
     nav > a {
