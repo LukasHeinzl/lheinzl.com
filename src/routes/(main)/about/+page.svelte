@@ -55,7 +55,8 @@
     Production</i> as my elective module.
     This was also what I did for the <i>Media Lab / Project semester</i> in the fifth semester.
     In a team of five, we worked on a 3D game called <a href="/projects/2022/09/nftp/">Notes from the Past</a>.
-    I graduated in june 2023, writing my bachelor thesis on <i>Educational escape rooms</i>.
+    I graduated in june 2023, writing my bachelor thesis on <a href="/BA_signed.pdf" target="_blank">Educational escape
+    rooms</a>.
 </p>
 
 <h2>What's up?</h2>
