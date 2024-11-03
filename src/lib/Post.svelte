@@ -14,9 +14,6 @@
 
     let { data, showPostList = false, children }: Props = $props();
 
-    let currentPost: string = $derived($page.url.toString().split("/").reverse()[1]);
-    
-
     interface IExtendedPost extends IPost {
         previousPost?: IPost;
         previousPostHref?: string;
@@ -25,6 +22,8 @@
     }
 
     async function loadPost(): Promise<IExtendedPost> {
+        let currentPostParts = $page.url.toString().split("/").reverse();
+        let currentPost = currentPostParts[3] + "/" + currentPostParts[2] + "/" + currentPostParts[1];
         let post = data.posts[currentPost] as IExtendedPost;
         let keys = Object.keys(data.posts);
         let idx = keys.indexOf(currentPost);

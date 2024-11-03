@@ -31,7 +31,7 @@
         fear, joy, disgust, disdain, surprise, and grief.
     </p>
 
-    <ImageViewer imageSrc="/posts/projects/2024-07-01-findingemo/all_elements.png"
+    <ImageViewer imageSrc="/posts/projects/2024/07/findingemo/all_elements.png"
                  caption="All elements positioned in an ominous circle"/>
 
     <p>
@@ -59,7 +59,7 @@
         underwater.
     </p>
 
-    <ImageViewer imageSrc="/posts/projects/2024-07-01-findingemo/anger.webp"
+    <ImageViewer imageSrc="/posts/projects/2024/07/findingemo/anger.webp"
                  caption="Interacting with the element of anger"/>
 
     <p>

@@ -21,7 +21,7 @@
         In the end the game was enjoyable to play and got me an A as the final grade in the course.
     </p>
 
-    <ImageViewer imageSrc="/posts/projects/2023-02-18-ktane/orig_game.jpg" caption="Screenshot of the original game"/>
+    <ImageViewer imageSrc="/posts/projects/2023/02/ktane/orig_game.jpg" caption="Screenshot of the original game"/>
 
     <h2>How did we get here?</h2>
 
@@ -37,7 +37,7 @@
         <li>One Arduino per module for handling the module logic</li>
     </ul>
 
-    <ImageViewer imageSrc="/posts/projects/2023-02-18-ktane/diagram.png" caption="Diagram of the original concept"/>
+    <ImageViewer imageSrc="/posts/projects/2023/02/ktane/diagram.png" caption="Diagram of the original concept"/>
 
     <h2>The modules</h2>
 
@@ -80,7 +80,7 @@
     <h2>Further information</h2>
 
     <p>
-        If interested you can download the source code <a href="/posts/projects/2023-02-18-ktane/source.zip">here</a>.
+        If interested you can download the source code <a href="/posts/projects/2023/02/ktane/source.zip">here</a>.
         Furthermore, you can watch a demo of the finished prototype <a href="https://youtu.be/x1h7p23W19w">here</a>.
     </p>
 </Post>

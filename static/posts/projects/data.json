@@ -1,34 +1,41 @@
 {
   "pinned": "",
   "posts": {
-    "2023-02-12-nftp": {
+    "2023/02/nftp": {
       "title": "Notes from the Past",
       "published": "12.02.2023",
       "tags": [
-        "game development",
-        "apocalypse",
-        "climate change",
-        "Unity"
+        "Game development",
+        "Apocalypse",
+        "Climate change",
+        "Unity",
+        "2022",
+        "Winter"
       ]
     },
-    "2023-02-18-ktane": {
+    "2023/02/ktane": {
       "title": "Keep talking and nobody explodes",
       "published": "18.02.2023",
       "tags": [
-        "game development",
+        "Game development",
         "Arduino",
         "Unity",
-        "physical computing"
+        "Physical computing",
+        "Micro controllers",
+        "2022",
+        "Spring"
       ]
     },
-    "2024-07-01-findingemo": {
+    "2024/07/findingemo": {
       "title": "Finding Emo",
       "published": "01.07.2024",
       "tags": [
         "Unity",
-        "WWise",
-        "experience",
-        "sound design"
+        "Wwise",
+        "Experience",
+        "Sound design",
+        "2024",
+        "June"
       ]
     }
   }
