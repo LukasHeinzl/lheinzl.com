@@ -9,7 +9,7 @@
 <div class="landing-page">
     <header>
         <img src="/Logo.png" alt="Logo" class="logo golden"/>
-        
+
         <h1 id="wordMark">
             <span>Lukas Heinzl, BSc</span>
             <span class="subMark">he/they</span>
@@ -23,7 +23,7 @@
 
         <p>
             I am a developer from Austria that currently studies a master program focused on AR/VR.
-            Furthermore, I work at <a href="https://fhstp.ac.at/" target="_blank">St. Pölten UAS</a> as a lecturer
+            Furthermore, I work at <a href="https://fhstp.ac.at/en" target="_blank">St. Pölten UAS</a> as a lecturer
             and lab infrastructure manager.
             If you want to read more about me, check out my <a href="/about/">about page</a>.
         </p>
