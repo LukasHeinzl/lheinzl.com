@@ -2,17 +2,17 @@
     import Post from "$lib/Post.svelte";
     import ImageViewer from "$lib/ImageViewer.svelte";
 
-    
+
     /**
      * @typedef {Object} Props
      * @property {any} data - from +layout.ts
      */
 
     /** @type {Props} */
-    let { data } = $props();
+    let {data} = $props();
 </script>
 
-<Post data={data.postData}>
+<Post data={data.postData} prefix="projects">
     <p>
         "Finding Emo" immerses players in a mysterious virtual reality world crafted with Unity and Wwise, where sound,
         emotion, and environment seamlessly blend.
@@ -31,7 +31,7 @@
         fear, joy, disgust, disdain, surprise, and grief.
     </p>
 
-    <ImageViewer imageSrc="/posts/projects/2024/07/findingemo/all_elements.png"
+    <ImageViewer imageSrc="/posts/projects/2024/06/findingemo/all_elements.png"
                  caption="All elements positioned in an ominous circle"/>
 
     <p>
@@ -59,7 +59,7 @@
         underwater.
     </p>
 
-    <ImageViewer imageSrc="/posts/projects/2024/07/findingemo/anger.webp"
+    <ImageViewer imageSrc="/posts/projects/2024/06/findingemo/anger.webp"
                  caption="Interacting with the element of anger"/>
 
     <p>

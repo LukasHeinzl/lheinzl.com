@@ -9,27 +9,75 @@
         post: IPost;
     }
 
-    let { href, post }: Props = $props();
+    let {href, post}: Props = $props();
 
     let viewCaption: string = $derived($page.params.type === 'projects' ? 'View project' : 'Read post');
-    
+
 </script>
 
 <article class="postListEntry">
-    <h2 class="h3 title">
-        <a href="{href}/">{post.title}</a>
-    </h2>
-    <div>
-        <span class="published">Published: {post.published}</span>
-        <Tags tags={post.tags} on:tagClicked/>
-    </div>
-    <a href="{href}/" class="view-post">
-        <ChevronRight/> {viewCaption}
-    </a>
+    {#if post.previewImage}
+        <a href="{href}/" class="previewImage">
+            <img src={post.previewImage} alt={post.title}/>
+        </a>
+    {/if}
+
+    <section>
+        <h2 class="h3 title">
+            <a href="{href}/">{post.title}</a>
+        </h2>
+        <div>
+            {#if post.published}
+                <div class="published">Published: {post.published}</div>
+            {/if}
+
+            {#if post.timeline}
+                <div class="published">
+                    Timeline:
+
+                    {#if typeof (post.timeline) === 'string'}
+                        {post.timeline}
+                    {:else if !post.timeline.to}
+                        since {post.timeline.from}
+                    {:else}
+                        {post.timeline.from} - {post.timeline.to}
+                    {/if}
+                </div>
+            {/if}
+
+            <Tags tags={post.tags} on:tagClicked/>
+        </div>
+        <a href="{href}/" class="view-post">
+            <ChevronRight/> {viewCaption}
+        </a>
+    </section>
 </article>
 
 <style>
     article {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 2rem;
+        align-items: center;
+    }
+
+    .previewImage {
+        display: block;
+        flex: 1 0 12rem;
+        height: 12rem;
+        border: none;
+    }
+
+    .previewImage img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: .7rem;
+        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    section {
+        flex: 5;
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;

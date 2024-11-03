@@ -12,7 +12,7 @@
     let { data } = $props();
 </script>
 
-<Post data={data.postData}>
+<Post data={data.postData} prefix="projects">
     <p>
         Notes from the Past explores human culture through the lens of an alien lifeform.
         Discovering the Voyager probe and deciphering the Golden Record led these aliens to find music.
@@ -24,7 +24,7 @@
         Listen to recordings of the people that lived there and learn about their fate.
     </p>
 
-    <ImageViewer imageSrc="/posts/projects/2023/02/nftp/logo.png" caption="Our logo, designed by Cajetan Grill"/>
+    <ImageViewer imageSrc="/posts/projects/2022/09/nftp/logo.png" caption="Our logo, designed by Cajetan Grill"/>
 
     <p>
         You are playing one of the aliens that had just crash-landed on planet Earth.
@@ -47,7 +47,7 @@
         This can turn seemingly useless things into useful and functional tools.
     </p>
 
-    <ImageViewer imageSrc="/posts/projects/2023/02/nftp/repair.jpg" caption="Repairing an artefact"/>
+    <ImageViewer imageSrc="/posts/projects/2022/09/nftp/repair.jpg" caption="Repairing an artefact"/>
 
     <p>
         Lastly the transponder functions as our main plot device.
@@ -60,7 +60,7 @@
         the player has found so far.
     </p>
 
-    <ImageViewer imageSrc="/posts/projects/2023/02/nftp/archive.jpg"
+    <ImageViewer imageSrc="/posts/projects/2022/09/nftp/archive.jpg"
                  caption="An artefact in the archive's database"/>
 
     <p>
@@ -80,7 +80,7 @@
 
     <ul>
         <li>
-            <a href="/posts/projects/2023/02/nftp/GDD.pdf">
+            <a href="/posts/projects/2022/09/nftp/GDD.pdf">
                 Game design document with all the details about the game
             </a>
         </li>

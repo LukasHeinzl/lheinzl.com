@@ -1,41 +1,44 @@
 {
   "pinned": "",
   "posts": {
-    "2023/02/nftp": {
-      "title": "Notes from the Past",
-      "published": "12.02.2023",
-      "tags": [
-        "Game development",
-        "Apocalypse",
-        "Climate change",
-        "Unity",
-        "2022",
-        "Winter"
-      ]
-    },
-    "2023/02/ktane": {
+    "2022/06/ktane": {
       "title": "Keep talking and nobody explodes",
-      "published": "18.02.2023",
+      "timeline": "06/2022",
+      "previewImage": "/posts/projects/2022/06/ktane/overview.webp",
       "tags": [
         "Game development",
         "Arduino",
         "Unity",
         "Physical computing",
         "Micro controllers",
-        "2022",
-        "Spring"
+        "2022"
       ]
     },
-    "2024/07/findingemo": {
+    "2022/09/nftp": {
+      "title": "Notes from the Past",
+      "timeline": {
+        "from": "09/2022",
+        "to": "01/2023"
+      },
+      "previewImage": "/posts/projects/2022/09/nftp/repair.jpg",
+      "tags": [
+        "Game development",
+        "Apocalypse",
+        "Climate change",
+        "Unity",
+        "2022"
+      ]
+    },
+    "2024/06/findingemo": {
       "title": "Finding Emo",
-      "published": "01.07.2024",
+      "timeline": "06/2024",
+      "previewImage": "/posts/projects/2024/06/findingemo/anger.webp",
       "tags": [
         "Unity",
         "Wwise",
         "Experience",
         "Sound design",
-        "2024",
-        "June"
+        "2024"
       ]
     }
   }

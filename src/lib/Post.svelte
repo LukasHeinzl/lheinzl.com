@@ -8,11 +8,14 @@
 
     interface Props {
         data: IPostList;
+        prefix: string;
         showPostList?: boolean;
         children?: import('svelte').Snippet;
     }
 
-    let { data, showPostList = false, children }: Props = $props();
+    let {data, prefix, showPostList = false, children}: Props = $props();
+    let currentPostParts = $derived($page.url.toString().split("/").reverse());
+    let currentPost = $derived(currentPostParts[3] + "/" + currentPostParts[2] + "/" + currentPostParts[1]);
 
     interface IExtendedPost extends IPost {
         previousPost?: IPost;
@@ -22,8 +25,6 @@
     }
 
     async function loadPost(): Promise<IExtendedPost> {
-        let currentPostParts = $page.url.toString().split("/").reverse();
-        let currentPost = currentPostParts[3] + "/" + currentPostParts[2] + "/" + currentPostParts[1];
         let post = data.posts[currentPost] as IExtendedPost;
         let keys = Object.keys(data.posts);
         let idx = keys.indexOf(currentPost);
@@ -70,7 +71,8 @@
 
     <div class="prevNext">
         {#if post.previousPost}
-            <a href="../{post.previousPostHref}/" class="prev" title="Go to previous post: '{post.previousPost.title}'">
+            <a href="/{prefix}/{post.previousPostHref}/" class="prev"
+               title="Go to previous post: '{post.previousPost.title}'">
                 <span class="arrow"><ArrowLeftThin/></span>
                 <span class="caption">
                     <span class="title">{TextUtils.limit(post.previousPost.title, 40)}</span>
@@ -82,7 +84,7 @@
         {/if}
 
         {#if post.nextPost}
-            <a href="../{post.nextPostHref}/" class="next" title="Go to next post: '{post.nextPost.title}'">
+            <a href="/{prefix}/{post.nextPostHref}/" class="next" title="Go to next post: '{post.nextPost.title}'">
                 <span class="caption">
                     <span class="title">{TextUtils.limit(post.nextPost.title, 40)}</span>
                     <span class="type">Next</span>

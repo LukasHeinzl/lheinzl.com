@@ -54,7 +54,7 @@
     Starting with the third semester, I was in the <i>Interactive Media</i> specialization and chose <i>Digital Game
     Production</i> as my elective module.
     This was also what I did for the <i>Media Lab / Project semester</i> in the fifth semester.
-    In a team of five, we worked on a 3D game called <a href="/projects/2023/02/nftp/">Notes from the Past</a>.
+    In a team of five, we worked on a 3D game called <a href="/projects/2022/09/nftp/">Notes from the Past</a>.
     I graduated in june 2023, writing my bachelor thesis on <i>Educational escape rooms</i>.
 </p>
 

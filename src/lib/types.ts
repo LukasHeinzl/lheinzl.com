@@ -1,6 +1,13 @@
+export interface ITimeline {
+    from: string;
+    to?: string;
+}
+
 export interface IPost {
     title: string;
-    published: string;
+    published?: string;
+    previewImage?: string;
+    timeline?: ITimeline | string;
     tags: string[];
 }
 
