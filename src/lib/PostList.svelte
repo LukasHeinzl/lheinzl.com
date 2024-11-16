@@ -29,9 +29,7 @@
         return order === "newest" ? filtered.reverse() : filtered;
     }
 
-    function handleTagClick(e): void {
-        let tag = e.detail.tag;
-
+    function handleTagClick(tag: string): void {
         if (selectedTags.includes(tag)) {
             selectedTags = selectedTags.filter(t => t !== tag);
         } else {
@@ -55,7 +53,7 @@
         </p>
 
         <div class="post pinned">
-            <PostListEntry href={data.pinned} post={data.posts[data.pinned]} on:tagClicked={handleTagClick}/>
+            <PostListEntry href={data.pinned} post={data.posts[data.pinned]} tagClicked={handleTagClick}/>
         </div>
     {/if}
 
@@ -69,7 +67,7 @@
     </p>
 
     {#if selectedTags.length > 0}
-        <Tags tags={selectedTags} on:tagClicked={handleTagClick}>Filtered tags:</Tags>
+        <Tags tags={selectedTags} tagClicked={handleTagClick}>Filtered tags:</Tags>
     {/if}
 
     <button onclick={() => toggleSortOrder()}>
@@ -84,7 +82,7 @@
 
     {#each getPostsSortedAndFiltered(data, sortOrder, selectedTags) as [href, post]}
         <div class="post">
-            <PostListEntry {href} {post} on:tagClicked={handleTagClick}/>
+            <PostListEntry {href} {post} tagClicked={handleTagClick}/>
         </div>
     {:else}
         Nothing to show

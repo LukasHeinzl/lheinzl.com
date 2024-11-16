@@ -7,12 +7,12 @@
     interface Props {
         href: string;
         post: IPost;
+        tagClicked: (tag: string) => void;
     }
 
-    let {href, post}: Props = $props();
+    let {href, post, tagClicked}: Props = $props();
 
     let viewCaption: string = $derived($page.params.type === 'projects' ? 'View project' : 'Read post');
-
 </script>
 
 <article class="postListEntry">
@@ -45,7 +45,7 @@
                 </div>
             {/if}
 
-            <Tags tags={post.tags} on:tagClicked/>
+            <Tags tags={post.tags} {tagClicked}/>
         </div>
         <a href="{href}/" class="view-post">
             <ChevronRight/> {viewCaption}

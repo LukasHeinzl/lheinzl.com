@@ -1,16 +1,14 @@
 <script lang="ts">
     import Label from "svelte-material-icons/Label.svelte";
     import Pound from 'svelte-material-icons/Pound.svelte';
-    import {createEventDispatcher} from "svelte";
 
     interface Props {
         tags: string[];
+        tagClicked: (tag: string) => void;
         children?: import('svelte').Snippet;
     }
 
-    let { tags, children }: Props = $props();
-
-    let dispatch = createEventDispatcher();
+    let {tags, tagClicked, children}: Props = $props();
 </script>
 
 <div class="tags">
@@ -21,7 +19,7 @@
     <ul class="list">
         {#each tags as tag}
             <li title="Tag: {tag}">
-                <button class="tag" onclick={() => dispatch("tagClicked", {tag})}>
+                <button class="tag" onclick={() => tagClicked(tag)}>
                     <span class="icon"><Pound/></span>
                     <span>{tag}</span>
                 </button>
