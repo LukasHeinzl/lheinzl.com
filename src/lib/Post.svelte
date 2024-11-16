@@ -46,7 +46,24 @@
 {#await loadPost() then post}
     <h1>{post.title}</h1>
     <div id="metadata">
-        <span class="published">Published: {post.published}</span>
+        {#if post.published}
+            <div class="published">Published: {post.published}</div>
+        {/if}
+
+        {#if post.timeline}
+            <div class="published">
+                Timeline:
+
+                {#if typeof (post.timeline) === 'string'}
+                    {post.timeline}
+                {:else if !post.timeline.to}
+                    since {post.timeline.from}
+                {:else}
+                    {post.timeline.from} - {post.timeline.to}
+                {/if}
+            </div>
+        {/if}
+
         <Tags tags={post.tags}/>
     </div>
     <div class="post-content">
