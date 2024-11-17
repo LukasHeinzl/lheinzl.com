@@ -41,11 +41,6 @@
     </article>
 
     <div class="link-list">
-        <a id="twitter" href="https://twitter.com/LukasHeinzl" target="_blank" rel="noreferrer">
-            <Twitter width="32" height="32"/>
-            Twitter
-        </a>
-
         <a id="instagram" href="https://www.instagram.com/lukasheinzl/" target="_blank" rel="noreferrer">
             <Instagram width="32" height="32"/>
             Instagram

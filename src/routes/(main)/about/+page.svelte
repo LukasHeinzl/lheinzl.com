@@ -1,5 +1,4 @@
 <script>
-    import Badge from "$lib/Badge.svelte";
     import CssBadge from "$lib/badges/CssBadge.svelte";
     import HtmlBadge from "$lib/badges/HtmlBadge.svelte";
     import KotlinBadge from "$lib/badges/KotlinBadge.svelte";
