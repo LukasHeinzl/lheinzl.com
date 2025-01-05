@@ -8,7 +8,10 @@
         children?: import('svelte').Snippet;
     }
 
-    let {tags, tagClicked, children}: Props = $props();
+    let {
+        tags, tagClicked = () => {
+        }, children
+    }: Props = $props();
 </script>
 
 <div class="tags">
