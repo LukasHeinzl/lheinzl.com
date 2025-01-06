@@ -1,9 +1,8 @@
 <script>
-    import Twitter from "svelte-material-icons/Twitter.svelte";
-    import Instagram from "svelte-material-icons/Instagram.svelte";
-    import Github from "svelte-material-icons/Github.svelte";
-    import Youtube from "svelte-material-icons/Youtube.svelte";
-    import Linkedin from "svelte-material-icons/Linkedin.svelte";
+    import Instagram from "$lib/icons/Instagram.svelte";
+    import Github from "$lib/icons/Github.svelte";
+    import Youtube from "$lib/icons/Youtube.svelte";
+    import Linkedin from "$lib/icons/Linkedin.svelte";
 </script>
 
 <div class="landing-page">
@@ -134,10 +133,6 @@
         border: none;
 
         transition: color 300ms ease-out;
-    }
-
-    .link-list a#twitter:hover {
-        color: #1c93e4;
     }
 
     .link-list a#instagram:hover {

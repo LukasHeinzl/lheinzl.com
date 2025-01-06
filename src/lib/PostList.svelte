@@ -1,9 +1,9 @@
 <script lang="ts">
     import PostListEntry from "$lib/PostListEntry.svelte";
-    import Pin from "svelte-material-icons/Pin.svelte";
-    import ArrowUp from "svelte-material-icons/ArrowUp.svelte";
-    import ArrowDown from "svelte-material-icons/ArrowDown.svelte";
-    import NewspaperVariantOutline from 'svelte-material-icons/NewspaperVariantOutline.svelte';
+    import Pin from "$lib/icons/Pin.svelte";
+    import ArrowUp from "$lib/icons/ArrowUp.svelte";
+    import ArrowDown from "$lib/icons/ArrowDown.svelte";
+    import NewspaperVariantOutline from '$lib/icons/NewspaperVariantOutline.svelte';
     import Tags from "$lib/Tags.svelte";
     import type {IPostList} from "$lib/types";
 

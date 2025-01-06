@@ -1,6 +1,6 @@
 <script lang="ts">
     import Tags from "$lib/Tags.svelte";
-    import ChevronRight from 'svelte-material-icons/ChevronRight.svelte';
+    import ChevronRight from '$lib/icons/ChevronRight.svelte';
     import {page} from "$app/stores";
     import type {IPost} from "$lib/types";
 

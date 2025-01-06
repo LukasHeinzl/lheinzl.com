@@ -1,8 +1,8 @@
 <script lang="ts">
-    import Home from "svelte-material-icons/Home.svelte";
-    import NewsPaperVariant from "svelte-material-icons/NewspaperVariant.svelte";
-    import AccountBox from "svelte-material-icons/AccountBox.svelte";
-    import MonitorCellphoneStar from 'svelte-material-icons/MonitorCellphoneStar.svelte';
+    import Home from "$lib/icons/Home.svelte";
+    import NewsPaperVariant from "$lib/icons/NewspaperVariant.svelte";
+    import AccountBox from "$lib/icons/AccountBox.svelte";
+    import MonitorCellphoneStar from '$lib/icons/MonitorCellphoneStar.svelte';
     import {page} from "$app/stores";
 
     //  RegExp used to match the current url path. Not 100% accurate, but enough for now..
@@ -15,22 +15,22 @@
 
 <nav>
     <a href="/" class:active={pageIdx === 0} title="Home">
-        <Home size="1.7em"/>
+        <Home width="1.7em" height="1.7em"/>
         <span class="nav-link-title">Home</span>
     </a>
 
     <a href="/about/" class:active={pageIdx === 1} title="About me">
-        <AccountBox size="1.7em"/>
+        <AccountBox width="1.7em" height="1.7em"/>
         <span class="nav-link-title">About me</span>
     </a>
 
     <a href="/projects/" class:active={pageIdx === 2} title="Projects">
-        <MonitorCellphoneStar size="1.7em"/>
+        <MonitorCellphoneStar width="1.7em" height="1.7em"/>
         <span class="nav-link-title">Projects</span>
     </a>
 
     <a href="/blog/" class:active={pageIdx === 3} title="Blog">
-        <NewsPaperVariant size="1.7em"/>
+        <NewsPaperVariant width="1.7em" height="1.7em"/>
         <span class="nav-link-title">Blog</span>
     </a>
 </nav>

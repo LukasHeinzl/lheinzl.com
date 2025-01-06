@@ -1,7 +1,7 @@
 <script lang="ts">
     import Tags from "$lib/Tags.svelte";
-    import ArrowLeftThin from "svelte-material-icons/ArrowLeftThin.svelte";
-    import ArrowRightThin from "svelte-material-icons/ArrowRightThin.svelte";
+    import ArrowLeftThin from "$lib/icons/ArrowLeftThin.svelte";
+    import ArrowRightThin from "$lib/icons/ArrowRightThin.svelte";
     import {TextUtils} from "$lib/utils";
     import {page} from "$app/stores";
     import type {IPost, IPostList} from "$lib/types";

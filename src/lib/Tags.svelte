@@ -1,10 +1,10 @@
 <script lang="ts">
-    import Label from "svelte-material-icons/Label.svelte";
-    import Pound from 'svelte-material-icons/Pound.svelte';
+    import Label from "$lib/icons/Label.svelte";
+    import Pound from '$lib/icons/Pound.svelte';
 
     interface Props {
         tags: string[];
-        tagClicked: (tag: string) => void;
+        tagClicked?: (tag: string) => void;
         children?: import('svelte').Snippet;
     }
 
