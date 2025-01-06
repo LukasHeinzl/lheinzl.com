@@ -2,14 +2,14 @@
     import Post from "$lib/Post.svelte";
     import ImageViewer from "$lib/ImageViewer.svelte";
 
-    
+
     /**
      * @typedef {Object} Props
      * @property {any} data - from +layout.ts
      */
 
     /** @type {Props} */
-    let { data } = $props();
+    let {data} = $props();
 </script>
 
 <Post data={data.postData} prefix="projects">
@@ -80,19 +80,37 @@
 
     <ul>
         <li>
-            <a href="/posts/projects/2022/09/nftp/GDD.pdf">
+            <a href="https://youtu.be/ii4fjDg7PJw" target="_blank">
+                Full playthrough of an almost finished build of the game
+            </a>
+        </li>
+        <li>
+            <a href="/posts/projects/2022/09/nftp/GDD.pdf" target="_blank">
                 Game design document with all the details about the game
             </a>
         </li>
         <li>
-            <a href="https://www.youtube.com/watch?v=ny_d_gdzw3s">
+            <a href="https://www.youtube.com/watch?v=ny_d_gdzw3s" target="_blank">
                 Teaser video - this contains minor spoilers for the start of the game, read the video description!
             </a>
         </li>
         <li>
-            <a href="https://bit.ly/m/nftp">
+            <a href="https://bit.ly/m/nftp" target="_blank">
                 Link list with the most important links - and maybe someday a download-link!
             </a>
         </li>
+    </ul>
+
+    <h2>Team</h2>
+
+    <ul>
+        <li>Michael Forthuber: Game idea, main GDD writer</li>
+        <li>
+            <a href="https://cajetan.dev/" target="_blank">Cajetan Grill</a>:
+            Concept art, design, UI implementation, development
+        </li>
+        <li>Sebastian Grün: Audio lead, dialog recording, sound effects, level design/art</li>
+        <li>Lukas Heinzl (me): Project lead, interaction system, minigames, save game system implementation</li>
+        <li>Dawid Lewandowski: Story writing, house asset, various custom models, voice acting</li>
     </ul>
 </Post>

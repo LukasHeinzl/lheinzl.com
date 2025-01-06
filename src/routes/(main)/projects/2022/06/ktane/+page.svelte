@@ -2,19 +2,19 @@
     import Post from "$lib/Post.svelte";
     import ImageViewer from "$lib/ImageViewer.svelte";
 
-    
+
     /**
      * @typedef {Object} Props
      * @property {any} data - from +layout.ts
      */
 
     /** @type {Props} */
-    let { data } = $props();
+    let {data} = $props();
 </script>
 
 <Post data={data.postData} prefix="projects">
     <p>
-        For my university lecture "physical computing" I created a physical game inspired by the popular game "Keep
+        For my university lecture "Physical Computing" I created a physical game inspired by the popular game "Keep
         talking and nobody explodes".
         Using Unity is a host, Arduinos for the modules, cardboard and a lot of tape I was able to create a fun
         prototype.
@@ -80,7 +80,9 @@
     <h2>Further information</h2>
 
     <p>
-        If interested you can download the source code <a href="/posts/projects/2022/06/ktane/source.zip">here</a>.
-        Furthermore, you can watch a demo of the finished prototype <a href="https://youtu.be/x1h7p23W19w">here</a>.
+        If interested you can download the source code <a href="/posts/projects/2022/06/ktane/source.zip"
+                                                          target="_blank">here</a>.
+        Furthermore, you can watch a demo of the finished prototype <a href="https://youtu.be/x1h7p23W19w"
+                                                                       target="_blank">here</a>.
     </p>
 </Post>

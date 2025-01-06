@@ -101,8 +101,8 @@
     </p>
 
     <ul>
-        <li>Heinzl Lukas & Steinmetz Martin - Unity Development</li>
-        <li>Grill Cajetan - Audio Development & Implementation</li>
+        <li>Heinzl Lukas (me) & Steinmetz Martin - Unity Development</li>
+        <li><a href="https://cajetan.dev/" target="_blank">Grill Cajetan</a> - Audio Development & Implementation</li>
         <li>Pfeiffer Paul - Wwise Implementation</li>
     </ul>
 

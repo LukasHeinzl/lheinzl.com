@@ -1,6 +1,75 @@
 {
   "pinned": "",
   "posts": {
+    "2014/07/tmog": {
+      "title": "The Music of Ghosts",
+      "timeline": {
+        "from": "~07/2014",
+        "to": "~11/2014"
+      },
+      "previewImage": "/posts/projects/2014/07/tmog/main_menu.webp",
+      "tags": [
+        "Game development",
+        "2D",
+        "Java"
+      ]
+    },
+    "2014/11/proglangs": {
+      "title": "The Light Programming Language",
+      "timeline": {
+        "from": "~11/2014",
+        "to": "~07/2017"
+      },
+      "previewImage": "/posts/projects/2014/11/proglangs/bytecodes.webp",
+      "tags": [
+        "C",
+        "C++",
+        "Java",
+        "Development"
+      ]
+    },
+    "2021/05/csgo": {
+      "title": "CSGO - Best of three livestream",
+      "timeline": "05/2021",
+      "previewImage": "/posts/projects/2021/05/csgo/thumbnail.webp",
+      "tags": [
+        "Audio / Video production",
+        "Livestream",
+        "2021",
+        "FHSTP"
+      ]
+    },
+    "2021/11/kronemining": {
+      "title": "Krone Mining",
+      "timeline": {
+        "from": "11/2021",
+        "to": "12/2021"
+      },
+      "previewImage": "/posts/projects/2021/11/kronemining/wordcloud.webp",
+      "tags": [
+        "Data visualization",
+        "JS",
+        "2021",
+        "FHSTP"
+      ]
+    },
+    "2022/03/catris": {
+      "title": "Catris",
+      "timeline": {
+        "from": "03/2022",
+        "to": "06/2022"
+      },
+      "previewImage": "/posts/projects/2022/03/catris/logo.webp",
+      "tags": [
+        "Game development",
+        "Tetris",
+        "C#",
+        "Cats",
+        "Unity",
+        "2022",
+        "FHSTP"
+      ]
+    },
     "2022/06/ktane": {
       "title": "Keep talking and nobody explodes",
       "timeline": "06/2022",
@@ -9,9 +78,11 @@
         "Game development",
         "Arduino",
         "Unity",
+        "C",
         "Physical computing",
         "Micro controllers",
-        "2022"
+        "2022",
+        "FHSTP"
       ]
     },
     "2022/09/nftp": {
@@ -24,9 +95,59 @@
       "tags": [
         "Game development",
         "Apocalypse",
+        "C#",
         "Climate change",
         "Unity",
-        "2022"
+        "2022",
+        "FHSTP"
+      ]
+    },
+    "2023/10/powerunlocked": {
+      "title": "Power Unlocked - A VR Escape Room Experience",
+      "timeline": {
+        "from": "10/2023",
+        "to": "01/2024"
+      },
+      "previewImage": "/posts/projects/2023/10/powerunlocked/outside.webp",
+      "tags": [
+        "Game development",
+        "Unity",
+        "Wwise",
+        "C#",
+        "VR",
+        "Escape room",
+        "2023",
+        "FHSTP"
+      ]
+    },
+    "2023/11/360av": {
+      "title": "Interactive 360° VR campus tour",
+      "timeline": {
+        "from": "11/2023",
+        "to": "01/2024"
+      },
+      "previewImage": "/posts/projects/2023/11/360av/cover.webp",
+      "tags": [
+        "Unity",
+        "Wwise",
+        "C#",
+        "VR",
+        "Insta360 Pro",
+        "2023",
+        "FHSTP"
+      ]
+    },
+    "2024/06/confusedballs": {
+      "title": "Confused Balls",
+      "timeline": "06/2024",
+      "previewImage": "/posts/projects/2024/06/confusedballs/logo.png",
+      "tags": [
+        "Game development",
+        "Unity",
+        "C#",
+        "AR",
+        "2024",
+        "FHSTP"
       ]
     },
     "2024/06/findingemo": {
@@ -36,9 +157,11 @@
       "tags": [
         "Unity",
         "Wwise",
+        "C#",
         "Experience",
         "Sound design",
-        "2024"
+        "2024",
+        "FHSTP"
       ]
     }
   }
