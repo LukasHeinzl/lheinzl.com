@@ -163,6 +163,20 @@
         "2024",
         "FHSTP"
       ]
+    },
+    "2024/03/apophis": {
+      "title": "Apophis",
+      "timeline": "03/2024 - 01/2025",
+      "previewImage": "/posts/projects/2024/03/apophis/Logo.webp",
+      "tags": [
+        "Unity",
+        "Wwise",
+        "C#",
+        "VR",
+        "Game",
+        "2024",
+        "FHSTP"
+      ]
     }
   }
 }
