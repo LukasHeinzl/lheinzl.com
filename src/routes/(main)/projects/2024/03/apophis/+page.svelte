@@ -118,7 +118,7 @@
             </a>
         </li>
         <li>
-            <a href="/posts/projects/2024/03/apophis/apophis.apk" target="_blank">
+            <a href="https://cdn.lheinzl.com/static/apophis.apk" target="_blank">
                 Playable APK for the Meta Quest 3
             </a>
         </li>
