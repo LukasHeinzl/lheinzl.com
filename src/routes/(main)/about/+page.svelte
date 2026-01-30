@@ -54,17 +54,21 @@
     Production</i> as my elective module.
     This was also what I did for the <i>Media Lab / Project semester</i> in the fifth semester.
     In a team of five, we worked on a 3D game called <a href="/projects/2022/09/nftp/">Notes from the Past</a>.
-    I graduated in june 2023, writing my bachelor thesis on <a href="/BA_signed.pdf" target="_blank">Educational escape
-    rooms</a>.
+    I graduated in june 2023, writing my bachelor thesis on Educational escape rooms.
+</p>
+
+<p>
+    After that I started my master studies in <i>Interactive Technologies</i>, , master class <i>Augmented / Virtual
+    Reality</i>, still at St. Pölten UAS.
+    Some of the projects created during my studies can be found on this website, including our VR game
+    <a href="/projects/2024/03/apophis/">Apophis</a>.
 </p>
 
 <h2>What's up?</h2>
 
 <p>
-    Right now, I'm in my last year of my master's degree in <i>Interactive Technologies</i>, master class <i>Augmented /
-    Virtual Reality</i>, still at St. Pölten UAS.
     In august 2023 I started working part-time at my university, being part of the
-    <a href="https://labs.fhstp.ac.at/" target="_blank">labs team</a>.
+    <a href="https://labs.ustp.at/" target="_blank">labs team</a>.
     I'm responsible for the IT infrastructure of our labs, code various internal tools and services, and teach software
     development (mostly web and game).
     Furthermore, I am the vice technical supervisor of the <a href="https://www.cr944.at/" target="_blank">Campus & City
