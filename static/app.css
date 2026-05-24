@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Righteous';
+    src: url('/fonts/righteous-regular-webfont.woff2') format('woff2'),
+    url('/fonts/righteous-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/raleway.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway Italic';
+    src: url('/fonts/raleway-italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway Thin';
+    src: url("/fonts/raleway-thin.ttf"),
+    url('/fonts/raleway-thin-webfont.woff2') format('woff2'),
+    url('/fonts/raleway-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway Thin Italic';
+    src: url('/fonts/raleway-thin-italic.ttf'),
+    url('/fonts/raleway-thin-italic-webfont.woff2') format('woff2'),
+    url('/fonts/raleway-thin-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root {
+    box-sizing: border-box;
+    font-family: 'Raleway', Tahoma, Arial, sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+
+    --bg-main: rgb(32, 32, 32);
+    --text-main: rgb(220, 220, 220);
+    --text-secondary: rgb(180, 180, 180);
+    --link-col: rgb(77, 120, 240);
+    --hover-col: rgb(20, 58, 163);
+    --accent-col: rgb(240, 194, 77);
+    --accent-dark-col: rgb(210, 164, 47);
+}
+
+html, body, body > div {
+    margin: 0;
+    color: var(--text-main);
+    background: rgb(4, 6, 13);
+    font-size: 1.1rem;
+}
+
+h1, .h1 {
+    font-family: 'Righteous', Tahoma, Arial, sans-serif;
+    font-size: 2.4rem;
+    color: var(--accent-col);
+}
+
+h2, .h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-block-start: 0.2rem;
+    margin-block-end: 0.2rem;
+    margin-bottom: 1.5rem;
+    line-height: 2.2rem;
+    color: var(--accent-dark-col);
+}
+
+h3, .h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+p {
+    line-height: 1.3;
+    text-align: justify;
+}
+
+a {
+    color: var(--link-col);
+    text-decoration: none;
+    transition: color 200ms ease-out, border 300ms ease;
+    border-bottom: 3px solid var(--link-col);
+}
+
+a:hover {
+    color: var(--hover-col);
+    border-bottom: 3px solid var(--hover-col);
+}
+
+blockquote {
+    border-left: 1px solid var(--accent-col);
+    margin: 0;
+    padding: 0.1rem 2rem;
+}
+
+blockquote > p > strong > em {
+    color: var(--accent-col);
+}
+
+strong {
+    font-family: 'Righteous', Tahoma, Arial, sans-serif;
+}
+
+@media screen and (max-width: 999px) {
+    :root {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    :root {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    :root {
+        font-size: 70%;
+    }
+}
