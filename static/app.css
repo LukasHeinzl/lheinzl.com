@@ -46,8 +46,8 @@
     font-weight: 400;
 
     --bg-main: rgb(32, 32, 32);
-    --text-main: rgb(220, 220, 220);
-    --text-secondary: rgb(180, 180, 180);
+    --text-main: rgb(190, 190, 190);
+    --text-secondary: rgb(150, 150, 150);
     --link-col: rgb(77, 120, 240);
     --hover-col: rgb(20, 58, 163);
     --accent-col: rgb(240, 194, 77);
