@@ -43,38 +43,43 @@
     Java has been my main language for almost eight years, but I've moved on to a brighter future.
     I ventured through many different aspects of programming, but starting in 2018 I've been focusing on web
     development.
-    Later on, starting 2021, I shifted part of my attention to game development using Unity / C#.
-    These two areas are where I now spend most of my time.
 </p>
+
+<h2>Studies and focus shift</h2>
 
 <p>
     In September 2020 I started my bachelor studies in <i>Media Technology</i> at the St. Pölten University of Applied
     Sciences.
     Starting with the third semester, I was in the <i>Interactive Media</i> specialization and chose <i>Digital Game
     Production</i> as my elective module.
-    This was also what I did for the <i>Media Lab / Project semester</i> in the fifth semester.
+    This is where I shifted part of my attention to game development using Unity / C#.
+    Together with web development, these two areas are where I now spend most of my time.
+    I stuck with <i>Digital Game Production</i> during the <i>Media Lab / Project semester</i> in the fifth semester.
     In a team of five, we worked on a 3D game called <a href="/projects/2022/09/nftp/">Notes from the Past</a>.
-    I graduated in june 2023, writing my bachelor thesis on Educational escape rooms.
+    I graduated in June 2023, writing my bachelor thesis on <i>Educational escape rooms</i>.
 </p>
 
 <p>
-    After that I started my master studies in <i>Interactive Technologies</i>, , master class <i>Augmented / Virtual
+    After that I started my master studies in <i>Interactive Technologies</i>, master class <i>Augmented / Virtual
     Reality</i>, still at St. Pölten UAS.
     Some of the projects created during my studies can be found on this website, including our VR game
-    <a href="/projects/2024/03/apophis/">Apophis</a>.
+    <a href="/projects/2024/03/apophis/">Apophis</a> and a fun side project exploring emotions called
+    <a href="/projects/2024/06/findingemo/">Finding Emo</a> that we created in five days.
+    I graduated in October 2025, writing my master thesis on <i>Evaluating hand tracking based locomotion methods in
+    VR</i>.
 </p>
 
 <h2>What's up?</h2>
 
 <p>
-    In august 2023 I started working part-time at my university, being part of the
+    In August 2023 I started working part-time (during my master studies) at my university, being part of the
     <a href="https://labs.ustp.at/" target="_blank">labs team</a>.
+    After graduating, I increased to full-time employment.
     I'm responsible for the IT infrastructure of our labs, code various internal tools and services, and teach software
     development (mostly web and game).
     Furthermore, I am the vice technical supervisor of the <a href="https://www.cr944.at/" target="_blank">Campus & City
     Radio St. Pölten</a>.
     For the various projects I have worked on, check out the <a href="/projects">projects page</a>.
-    On my <a href="/blog/">blog</a> I try to post about various ongoing projects, among other things.
 </p>
 
 <h2>Skills & CV</h2>
@@ -82,7 +87,8 @@
 <p>
     Over the years I have acquired a wide range of skills, mostly technical.
     You can find my detailed CV <a href="/CV_Public.pdf" target="_blank">here</a>.
-    The following shows a list of technologies I have worked with, ranging from used once to having in-depth knowledge.
+    The following shows a list of technologies I have worked with, ranging from used seldom to having in-depth
+    knowledge.
 </p>
 
 <h3>Programming / markup languages</h3>
@@ -93,9 +99,9 @@
     <TsBadge/>
     <HtmlBadge/>
     <CssBadge/>
-    <CBadge/>
     <KotlinBadge/>
     <JavaBadge/>
+    <CBadge/>
 </section>
 
 <h3>Technologies / frameworks</h3>
