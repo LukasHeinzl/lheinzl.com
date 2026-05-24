@@ -21,17 +21,13 @@
         </h2>
 
         <p>
-            I am a developer from Austria that currently studies a master program focused on AR/VR.
-            Furthermore, I work at <a href="https://fhstp.ac.at/en" target="_blank">St. Pölten UAS</a> as a lecturer
-            and lab infrastructure manager.
+            I am a developer from Austria working at <a href="https://ustp.at/en" target="_blank">USTP</a> as a
+            university lecturer and lab infrastructure manager.
+            Furthermore, I am the vice technical head of <a href="https://cr944.at/" target="_blank">Campus &amp;
+            City Radio St. Pölten</a>.
+            My roots are in IT, media technology, AR/VR and game development.
             If you want to read more about me, check out my <a href="/about/">about page</a>.
-        </p>
-
-        <p>
-            On this website you can explore <a href="/projects/">projects</a> that I have been or currently am
-            working on.
-            You will also find my <a href="/blog/">personal blog</a> where I write more about my day-to-day life as
-            well as whatever else I want to talk about.
+            For an overview of projects I've worked on, go check the <a href="/projects/">projects list</a>.
         </p>
 
         <p class="quote">
