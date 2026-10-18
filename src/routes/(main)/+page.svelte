@@ -10,7 +10,7 @@
         <img src="/Logo.png" alt="Logo" class="logo golden"/>
 
         <h1 id="wordMark">
-            <span>Dipl.-Ing. Lukas Heinzl, BSc</span>
+            <span>Lukas Heinzl</span>
             <span class="subMark">he/they</span>
         </h1>
     </header>
